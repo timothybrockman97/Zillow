@@ -1,0 +1,62 @@
+main {
+  max-width: 33%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+#zillow {
+  width: 45%;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  grid-template-rows: 0fr 0fr;
+  border: solid .25px;
+  border-color: rgba(133, 134, 141, 0.23);
+  margin-top: 1rem;
+}
+
+.home-images {
+  width: 19em;
+}
+
+#details {
+  text-align: left;
+  padding-left: 1.5em;
+}
+
+#green-circle {
+  border-radius: 50%;
+}
+
+.for-sale {
+  display: inline; margin-left: .5em; 
+}
+
+.button {
+  background-color: rgba(39, 73, 245, 0.8);
+  color: white;
+  font-size: 1.20em;
+  font-weight: bold;
+  border: solid black 0em;
+  border-radius: .2em;
+  padding: .5em 1em .5em 1em;
+  margin: 2em 0em 2em 0em;
+}
+
+.button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#more {
+  font-weight: bold; 
+}
+
+.more {
+  display: inline-block;
+  color: black;
+}
